@@ -24,6 +24,16 @@
     justify-content: center;
     gap: .7rem;
 }
+.ramas {
+    width: 300px;
+    padding-block: 6rem;
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
 .adorno {
     width: 1.5rem;
     height: 1.5rem;
@@ -43,15 +53,12 @@
    }    
 }
 
-.rama p {
-    padding-top: 3rem;
+.ramas p {
     font-size: 2.2rem;
-    color: #fff;
-    font-family: 'Festive';  
+    font-family: 'Festive';
+    width: 300px;
+    text-align: center;
 }
-
-
-
-
-
-
+p{
+    color:#fff;
+}
