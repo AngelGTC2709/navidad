@@ -10,7 +10,7 @@
 .container {
   background: radial-gradient(#3b0404,  #1f0101, #0c0000);
   width: 100%;
-  height: 100vh;
+  height: 2000px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -25,14 +25,14 @@
     gap: .7rem;
 }
 .ramas {
-    width: 300px;
+    width: clamp(300px, 50%, 5000px);
     padding-block: 6rem;
-    height: 7rem;
     display: flex;
     align-items: center;
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
+    gap: 1.6rem;
 }
 .adorno {
     width: 1.5rem;
@@ -56,7 +56,12 @@
 .ramas p {
     font-size: 2.2rem;
     font-family: 'Festive';
-    width: 300px;
+    text-align: center;
+    display: flex;
+}
+#titulo{
+    font-size: 4rem;
+    font-family: 'Festive';
     text-align: center;
 }
 p{
